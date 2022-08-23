@@ -1,1 +1,4 @@
-100
+#include<stdio.h>
+void main(){
+    printf("hello vasava");
+}
