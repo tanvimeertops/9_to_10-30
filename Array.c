@@ -1,5 +1,8 @@
 /*Array is collection of data of similar type.
 Array will always start from 0
+types of array:
+1. 1-D (dimension)
+2. 2-D
 */
 //array with macro.
 #define n 5
