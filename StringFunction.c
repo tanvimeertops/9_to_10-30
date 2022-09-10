@@ -3,6 +3,15 @@
 1=first string greater than second.
 -1= second string greater than first.
 strcpy(destination,source)
+garbage collecter when ever the object are no longer needed then they are
+automatically destroyed by the java garbage collector
+java makes object in heap
+garbage collection funtionality is provided by jvm.
+virtual memory error
+manually the garbage collection can be done.
+eg: database collection is not closed.
+automatic memory management.
+
 */
 #include<stdio.h>
 #include<string.h>
