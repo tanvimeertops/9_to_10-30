@@ -15,6 +15,7 @@ void main(){
     for (int i = 0; i < n; i++)
     {
         printf("\nEnter emp no:");
+        
         scanf("%d",&e[i].empno);
         printf("\nEnter emp name:");
         scanf("%s",&e[i].empname);
