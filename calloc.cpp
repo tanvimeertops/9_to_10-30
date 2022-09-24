@@ -1,17 +1,6 @@
-/*
-sma: static memory allocation
-eg:int a[100];//compile time
-
-dma: dynamic memory allocation.
-run time 
-malloc :memory allocation.
-heap
-data structure:
- linked list
- stack
- queue
+/*calloc :contiguos allocation
+calloc (two parameter)
 */
-//take input from user and print it.
 #include<stdio.h>
 #include<stdlib.h>
 
