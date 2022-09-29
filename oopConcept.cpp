@@ -36,5 +36,6 @@ int main(){
     Tops obj;//object create
     obj.getdata();
     obj.calc();
+    
 }
 
