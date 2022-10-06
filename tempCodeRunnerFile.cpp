@@ -1,1 +1,1 @@
-inline
+calc c;

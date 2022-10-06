@@ -11,16 +11,19 @@ types of constructor:
 3. copy (obj as agru) //clone of obj
 */
 //voulume of box (l*b*h)
+//STACK
+//LIFO
 #include<iostream>
 using namespace std;
 
 class constructorEx1
 {
 private:
-    int length,bredth,height;
+    int length,bredth,height,voulume;
 public:
 //DEFUALT constructor
     constructorEx1();
+    constructorEx1(int l,int b,int h);
     void volume();
     ~constructorEx1(); //destructor
 };
@@ -35,15 +38,24 @@ constructorEx1::constructorEx1()
     cin>>height;
 }
 
+constructorEx1::constructorEx1(int l,int b,int h){
+    length=l;
+    bredth=b;
+    height=h;
+}
 void constructorEx1::volume(){
-cout<<"volume:" <<length*bredth*height<<endl;
+    voulume=length*bredth*height;
+cout<<"volume:" <<voulume<<endl;
 }
 
 constructorEx1::~constructorEx1()
 {
+    cout<<"destr uctor called for:"<<voulume<<endl;
 }
 
 int main(){
     constructorEx1 dc; //obj created.
     dc.volume();
+    constructorEx1 pc(10,20,30);
+    pc.volume();
 }
