@@ -10,18 +10,25 @@ data. (Single Inheritance)*/
 using namespace std;
 class cricketer{
  protected:
-  string name;
+  char name[15][25];
   int run[3];
   public:
   void getData(){
-    cout<<"enter name:";
-    getline(cin,name);
+    
     for (int i = 0; i < 3; i++)
     {
+    cout<<"enter name:";
+    cin>>name[i];
+
     cout<<"enter run:";
     cin>>run[i];
     }
     
+   for (int i = 0; i < 3; i++)
+   {
+   cout<<name[i]<<endl;
+   cout<<run[i]<<endl;
+   }
    
   }
 };
